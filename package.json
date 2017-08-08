@@ -1,0 +1,27 @@
+{
+  "name": "time-log",
+  "version": "0.0.1",
+  "description": "Log Time",
+  "main": "interactive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/motiko/time-log.git"
+  },
+  "keywords": [
+    "shell",
+    "js",
+    "productivity"
+  ],
+  "author": "motiko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motiko/time-log/issues"
+  },
+  "homepage": "https://github.com/motiko/time-log#readme",
+  "dependencies": {
+    "terminal-menu": "^2.1.1"
+  }
+}
