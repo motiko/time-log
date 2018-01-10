@@ -4,6 +4,7 @@
   "description": "Log Time",
   "main": "interactive.js",
   "scripts": {
+    "run": "node interactive.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/motiko/time-log#readme",
   "dependencies": {
+    "blessed": "^0.1.81",
     "terminal-menu": "^2.1.1"
   }
 }
