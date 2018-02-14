@@ -1,6 +1,6 @@
 #/bin/sh
 STATUS=`./status.sh`
-if [[ "$STATUS" == "PAUSE" || "$STATUS" == "STOP" ]] ; then
+if [[ "$STATUS" == "STOP" ]] ; then
   echo "Error status is $STATUS"
   exit -1
 fi
