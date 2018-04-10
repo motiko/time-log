@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 if [[ "$(./status.sh)" != "PAUSE" ]] ; then
   echo "Error status is $(./status.sh)"
   exit -1

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 STATUS=`./status.sh`
 if [[ "$STATUS" != "START" &&  "$STATUS" != "RESUME" ]] ; then
   echo "0:0"

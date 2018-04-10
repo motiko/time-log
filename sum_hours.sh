@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # e.g. input
 # 4:20
 # 1:30

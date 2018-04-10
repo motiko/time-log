@@ -1,3 +1,4 @@
+#!/bin/bash
 STATUS=`./status.sh`
 if [[ "$STATUS" != "STOP" ]] ; then
   echo "Error status is '$STATUS'"
